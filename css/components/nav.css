@@ -1,0 +1,18 @@
+.nav {
+	display: flex;
+	margin: 0 -12.5px;
+}
+
+.nav-item {
+	font-size: 13px;
+	padding: 0 12.5px;	
+}
+
+.nav .is-active {
+	color: #00e0d0;
+}
+@media (max-width: 960px) {
+  .nav {
+    display: none;
+  }
+}

@@ -1,0 +1,144 @@
+.card {
+  position: relative;
+}
+
+.card-feature {
+  border-right: 1px solid rgba(000, 000, 000, 0.2);
+  border-bottom: 1px solid rgba(000, 000, 000, 0.2);
+  padding: 40px 33px;
+}
+
+.card-specialists {
+  border: 1px solid #e1e1e1;
+}
+
+.card-specialists .card-subtitle,.card-title {
+  margin: 0;
+}
+
+.card-specialists .card-body {
+  padding: 15px;
+}
+
+.card-specialists .card-image {
+  margin: 0;
+}
+
+.card-specialists-cover {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(225, 255, 255, 0.4);
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-specialists:hover .card-specialists-cover {
+  display: flex;
+}
+
+.card-specialists:hover .card-body {
+  background-color: #3a454d;
+  color: #ffffff;
+}
+
+.card-clients {
+  padding: 25px 0;
+}
+
+.card-clients .image {
+  width: auto;
+}
+
+.card-clients .image-clients {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.card-icon .icon {
+  height: 50px;
+  object-fit: contain;
+}
+
+.card-image .image {
+  height: 230px;
+  display: block;
+}
+
+.card-title {
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.7px;
+}
+
+.card-subtitle {
+  color: #fafafa;
+  font-size: 13px;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.card-description {
+  text-align: center;
+}
+
+.card-image {
+  position: relative;
+  margin: 0;
+}
+
+.card-work {
+  position: relative;
+}
+
+.card-work-cover {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-image-cover {
+  background-color: rgba(41, 47, 54, 0.5);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 100%;
+}
+
+.card-body-cover {
+  background-color: #292f36;
+  color: #fff;
+  flex-basis: 60px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-body-cover .card-title {
+ margin: 0;
+}
+
+.card-image-cover .image {
+  height: 20px;
+  width: 20px;
+}
+
+.card-work:hover .card-image-cover {
+  display: flex;
+}
+
+.card-work:hover .card-body-cover {
+  display: flex;
+}
+
